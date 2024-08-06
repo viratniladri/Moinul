@@ -1,0 +1,64 @@
+/* FROM 02 : 07 : 40 */
+                    /* HEIGHT & WIDTH */
+/* * {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: hsl(0, 0%, 25%);
+    height: 100vh;
+}
+
+.box {
+    background-color: white;
+    border: 2px solid black;
+    padding: 25px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+
+    min-height: 50%;
+} */
+
+
+
+
+
+
+                    /* POSITION */
+    /* 
+        position:
+            relative =  positioned relative to where it normally is
+            fixed    =  positioned relative to the viewport
+            absolute =  positioned relative to nearest ancestor
+            sticky   =  positioned based on scrollposition
+            static   =  default position for an element 
+
+            sticky is kind of similar to fixed. In sticky it's gonna 
+            be at the same place untill we scroll down.
+    */
+
+.container {
+    height: 200px;
+    width: 200px;
+    background-color: hsl(188, 100%, 65%);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 100%, 64%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+/* #box2 {
+    height: 200px;
+    width: 200px;
+    background-color: hsl(0, 100%, 50%);
+    position: relative;
+
+} */

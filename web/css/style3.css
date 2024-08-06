@@ -1,0 +1,187 @@
+/* FROM 02: 21 : 03 */
+
+                    /* BACKGROUND IMAGE */
+
+/* body {
+    background-image: url(img/bangladesh9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+
+
+
+
+
+                    /* COMBINATORS */
+        /* 
+            combinators  =  explaines the relationship between 
+                            listed selectors.
+                          = descendant
+                        > = child            -- only child
+                        ~ = general sibling  -- every sibling below
+                        + = adjacent sibling -- the next direct sibling
+        */
+
+/* #container {
+    border: 2px solid black;
+}
+
+#container + p {
+    background-color: yellow;
+} */
+
+
+
+
+
+
+
+
+                    /* PSEUDO-CLASSES */
+
+/* a:link {
+    color: rgb(0, 255, 255);
+}
+a:hover {
+    color: rgb(141, 255, 255);
+}
+a:not(:hover) {
+    color: #ff0000;
+} */
+
+
+
+
+
+
+
+
+                    /* PSEUDO-ELEMENTS */
+    /* 
+        pseudo-element  =   keyword added after a selector that's 
+                            used to style a specific parts of an element.
+
+                            selector::pseudo-element 
+    */
+/* h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line {
+    background-color: hsl(60, 100%, 74%);
+}
+p::selection {
+    color: rgb(0, 255, 0);
+    background-color: black;
+} */
+
+/* #fruit li::before {
+    content: "✅";
+    windows + ; -- for emoji window
+
+} */
+
+/* #apple::after {
+    content: "🍎";
+}
+#orange::after {
+    content: "🍊";
+}
+#banana::after {
+    content: "🍌";
+}
+
+#fruit li::marker {
+    content: "✔️";
+    font-size: 1.2em;
+    color: greenyellow;
+    background-color: greenyellow;
+} */
+
+
+
+
+
+
+
+
+                    /* PAGINATION */
+    /*     
+        pagination  =   method by which a document is 
+                        seperated into pages, and numbers 
+                        are given.
+     */
+
+/* .pagination {
+    text-align: center;
+
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+.pagination a.active {
+    background-color: rgb(69, 255, 69);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: gray;
+    border-radius: 5px;
+} */
+
+
+
+
+
+
+
+
+                    /* DROPDOWN MENUS */
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button{
+    background-color: hsl(0, 0%, 80%);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.dropdown:hover button {
+    background-color: hsl(0, 0%, 70%);
+}
+
+.dropdown a:hover {
+    background-color: hsl(0, 0%, 90%);
+}

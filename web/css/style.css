@@ -1,0 +1,143 @@
+                    /* COLORS */
+
+/* body {
+    background-color: slategray;
+}
+
+#p1 {
+    color: tomato;
+}
+
+#p2 {
+    color: rgb(120, 222, 255);
+} */
+
+
+
+
+
+
+
+                    /* FONTS */
+
+/* @font-face {
+    src: url(fonts/GreyQo-Regular.ttf);
+    font-family: GreyQo-Regular;
+}
+h1 {
+    font-family: GreyQo-Regular, verdana, Arial;
+}
+
+#p1 {
+    font-family: "lucida console", "courier";
+    font-size: 18px;
+} */
+
+
+
+
+
+
+                    /* BORDERS */
+
+/* h1 {
+    border: 3px solid hsl(273, 100%, 54%);
+    border-radius: 5px;
+}
+
+#p1 {
+    border-bottom: 3px solid red;
+    border-top: 3px solid yellow;
+    border-left: 3px dotted orange;
+    border-right: 3px dotted green;
+
+    border-radius: 10px;
+} */
+
+
+
+
+
+
+                    /* SHADOWS */
+
+/* h1 {
+    text-shadow: 3px 3px 5px hsl(0, 100%, 61%),
+                    -3px -3px 5px hsl(182, 100%, 61%);
+}
+
+#box1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(234, 234, 234);
+    box-shadow: 3px 3px 5px;
+} */
+
+
+
+                    /* FLOAT */
+/* body {
+    border: 3px solid black;
+    display: flow-root;
+}
+.img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+.img2 {
+    float: right;
+    margin-left: 10px;
+} */
+
+
+
+
+
+
+                    /* OVERFLOW */
+
+    /* 
+        Overflow =  property that sets the desired behavior 
+                    when content doesn't fit in the parent 
+                    element box.(Overflows)
+
+        overflow: visible - It allows user to see the overflowing texts also.
+        overflow: hidden  - It hides overflowing texts.
+        overflow: clip    - It's nearly similar to "hidden".
+                            "overflow-clip-margin: 10px;" should be added.
+                            -it determines how much text will be visible beyond the box.
+        overflow: scroll  - It allows to see the whole content by scrolling.
+        overflow: auto    - It shows scroll bar when needed.
+    */
+
+/* div {
+    border: 2px solid black;
+    height: 75px;
+} */
+
+
+
+
+
+
+                    /* DISPLAY */
+
+    /*  
+        Display  =  Property that specifies if/how 
+                    an element is displayed.
+
+        block-level  =  starts on a new line, 
+                        takes up the full width available.
+                        (h1, p, div, form, header, footer)
+
+        inline  =   doesn't start on a new line,
+                    width is limited to what is needed.
+                    (span, a, img)
+
+        
+                    display: inline/ block/ inline-block/ none;
+        
+        display: none;      - just removes those elements.
+        visibility: hidden; - hides the elements but there place is still occupied.
+    */
