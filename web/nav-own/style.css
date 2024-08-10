@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+::selection {
+    color: green;
+    background: black;
+}
+nav{
+    background-color: hsl(0, 0%, 11%);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    text-decoration: none;
+    font-family:monospace;
+    color: rgb(0, 255, 0);
+    font-size: 28px;
+}
+
+.nav-logo:hover {
+    color: rgba(0, 255, 0, 0.811);
+}
+
+.nav-container {
+    /* nothing */
+}
+
+.nav-container  a{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 0%, 11%);
+    margin-right: 50px;
+    font-family: cursive;
+}
+
+.nav-container a:hover {
+    color: rgb(0, 255, 0);
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(0, 255, 0);
+}
+
+
+
+/* HERO */
+.hero {
+    width: 100%;
+    height: 88vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.922), rgba(0, 0, 0, 0.929)),
+    url(img/bangladesh6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-img {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+.hero-container {
+    text-align: left;
+    margin-top: 150px;
+    float: left;
+    width: 40%;
+    font-size: 30px;
+    color: white;
+}
+
+.hero-container p {
+    display: inline;
+    font-size: 60px;
+    color: rgb(0, 255, 0);
+}
+
+#description {
+    font-size: 14px;
+    color: white;
+    padding: 1px;
+    margin-top: 15px;
+}
+
+button {
+    font-family: cursive;
+    color: rgb(0, 255, 0);
+    background-color: black;
+    font-size: 25px;
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+button:active {
+    color: white;
+    border: 1px solid rgba(0, 255, 0, 0.731);
+
+}
+
+aside {
+    float: right;
+    margin-right: 20px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+aside a {
+    margin-bottom: 10px;
+}
+
+.fb {
+    font-size: 30px;
+    color: white;
+}
+.fb:hover {
+    color: rgba(0, 255, 0, 0.8);
+}
+
+.twitter {
+    font-size: 30px;
+    color: white;
+}
+.twitter:hover {
+    color: rgba(0, 255, 0, 0.8);
+}
+
+.linked-in {
+    font-size: 30px;
+    color: white;
+}
+.linked-in:hover {
+    color: rgba(0, 255, 0, 0.8);
+}
+
+.github {
+    font-size: 30px;
+    color: white;
+}
+.github:hover {
+    color: rgba(0, 255, 0, 0.8);
+}
